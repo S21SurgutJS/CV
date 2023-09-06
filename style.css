@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 800px;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.page-header__avatar {
+  width: 160px;
+  height: 160px;
+}
+
+.page-header__info {
+  flex-grow: 1;
+}
+
+.page-header__name {
+  gap: 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.page-header__profession {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.page-header__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 5px;
+}
+
+.page-header__heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.page-header__link {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+}
