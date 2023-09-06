@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>CV</title>
 </head>
+
 <body>
   <div class="container">
     <header class="page-header">
+
       <img class="page-header__avatar" src="img/avatar1.jpg" alt="Аватар">
       <div class="page-header__info">
         <p class="page-header__name">
@@ -30,15 +33,74 @@
         </a>
       </div>
     </header>
-    <main>
+    <hr>
+    <main class="page-main">
+      <p class="page-main__about-me">
+        <b>Немного обо мне:</b> это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+        стандартной
+        "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию
+        размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил
+        без заметных изменений пять веков...
+      </p>
 
+      <div class="page-main__info">
+        <div class="page-main__info-item-left">
+          <div class="page-main__info-title">Хобби</div>
+          <ul class="page-main__info-list">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+          </ul>
+        </div>
+        <div class="page-main__info-item-right">
+          <div class="page-main__info-title">Соц сети</div>
+          <ol class="page-main__info-list">
+            <li>one</li>
+            <li>one</li>
+            <li>one</li>
+          </ol>
+        </div>
+      </div>
+      <h2 class="page-main__h2">Интересующие технологии</h2>
+
+      <div class="page-main__technology">
+        <div class="page-main__technology-item">
+          <img src="/img/JS.png" alt="">
+          <p> JavaScript</p>
+        </div>
+        <div class="page-main__technology-item">
+          <img src="/img/JS.png" alt="">
+          <p> JavaScript</p>
+        </div>
+        <div class="page-main__technology-item">
+          <img src="/img/JS.png" alt="">
+          <p> JavaScript</p>
+        </div>
+        <div class="page-main__technology-item">
+          <img src="/img/JS.png" alt="">
+          <p> JavaScript</p>
+        </div>
+        <div class="page-main__technology-item">
+          <img src="/img/JS.png" alt="">
+          <p> JavaScript</p>
+        </div>
+      </div>
+
+      <h2 class="page-main__h2">Форма обратной связи</h2>
     </main>
     <footer>
-
+      <form class="footer__form">
+        <input class="footer__input" type="text" placeholder="Name">
+        <input class="footer__input" type="text" placeholder="Phone">
+        <textarea class="footer__textarea" rows="6" placeholder="Question"></textarea>
+        <button class="footer__btn">Отправить</button>
+      </form>
     </footer>
   </div>
 
 </body>
+
 </html>
 
 <!--
